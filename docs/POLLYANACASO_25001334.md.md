@@ -51,7 +51,7 @@ Liste e descreva **cada RN** de forma clara.
 ---
 
 # 5. Casos de Uso 
-<img width="937" height="813" alt="image" src="https://github.com/user-attachments/assets/4cb2613c-e74f-41f6-a61f-77c21f300035" />
+<img width="531" height="484" alt="image" src="https://github.com/user-attachments/assets/aa131a64-2ec2-4468-a41e-426d2bb628cf" />
 
 ---
 
@@ -60,28 +60,61 @@ Liste e descreva **cada RN** de forma clara.
 ## **UC01 - Realizar Venda**
 **Ator(es): Atendente**  
 **Descrição: Serve para registrar a venda de produtos para um cliente no sistema.**  
-**Pré-condições:**  
-**Pós-condições:**  
+**Pré-condições: Produto cadastradi e sistema funcionando**  
+**Pós-condições: venda registrada e estoque atualizado**  
 
 ### Fluxo Principal
-1.  
+1.  Atendente inicia a venda
+2.  Sistema solicita o cliente
+3.  Atendente informa ou busca o cliente
+4.  Atendente adiciona os produtos
+5.  Sistema verifica o estoque
+6.  Atendente confirma a venda
+7.  Sistema registra a venda
+8.  Sistema atualiza o estoque
+9.  Sistema emite o comprovante
+
+
+### Fluxos Alternativos / Exceções
+- FA01 —  Cliente não está cadastrado - sistema tem que permitir o cadastro
+- FA02 —  Produto sem estoque - sistema não deixa continuar a venda
+
+### Relacionamentos
+- **Include: Consultar produto, verificar estoque, identificar cliente** 
+- **Extend: Cadastrar cliente e gerar conta a receber** 
+
+<img width="384" height="854" alt="image" src="https://github.com/user-attachments/assets/efd4b652-5845-4bad-9c08-c216cb7d80d0" />
+
+
+---
+
+# 6. Documentação dos Casos de Uso
+
+## **UC02 - **
+**Ator(es): **  
+**Descrição: **  
+**Pré-condições: **  
+**Pós-condições: **  
+
+### Fluxo Principal
+1. 
 2.  
 3.  
 4.  
+5.   
+6.  
+7.  
+8.  
+9.  
+
 
 ### Fluxos Alternativos / Exceções
 - FA01 —  
 - FA02 —  
 
 ### Relacionamentos
-- **Include:** (listar quando aplicável)  
-- **Extend:** (listar quando aplicável)  
-
-### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+- **Include:**
+- **Extend:**                      
 
 ---
-
-> Repita essa estrutura para **todos os seus casos de uso** (mínimo 10).
-
-
 
