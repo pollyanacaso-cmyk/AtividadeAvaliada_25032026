@@ -16,7 +16,7 @@ Escolhi isso por que a venda é a parte mais crítica do sistema e que impacta d
 
 ---
 
-# 2. Regras de Negócio (mínimo: 5)
+# 2. Regras de Negócio 
 Liste e descreva **cada RN** de forma clara.
 
 **RN01 — O sistema não pode vender se não tiver o produto no estoque**  
@@ -27,8 +27,7 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-# 3. Requisitos Funcionais (mínimo: 8)
-Liste os requisitos funcionais do seu MVP.
+# 3. Requisitos Funcionais 
 
 **RF01 — O sistema deve permitir consultar produtos por nome, código ou fabricante**  
 **RF02 — O sistema deve permitir cadastrar um novo cliente**  
@@ -41,8 +40,7 @@ Liste os requisitos funcionais do seu MVP.
 
 ---
 
-# 🛡 4. Requisitos Não Funcionais (mínimo: 4)
-Liste os RNFs do sistema conforme seu MVP.
+# 4. Requisitos Não Funcionais
 
 **RNF01 — O sistema deve ter uma interface simples**  
 **RNF02 — O sistema deve responder rapidamente as consultas de produtos**  
@@ -52,19 +50,15 @@ Liste os RNFs do sistema conforme seu MVP.
 
 ---
 
-# 5. Casos de Uso (mínimo: 10)
-### Inserir **diagrama de casos de uso geral**, demonstrando claramente:
-- os 10 casos
-- relação entre eles e atores
-- pelo menos 3 includes
-- pelo menos 3 extends
+# 5. Casos de Uso 
+<img width="531" height="461" alt="image" src="https://github.com/user-attachments/assets/6324150f-b7c7-42c2-8a8b-9a197a76d07e" />
 
 ---
 
 # 6. Documentação dos Casos de Uso
 
 ## **UC01 - Realizar Venda**
-**Ator(es): Atendente e/ou farmaceutico**  
+**Ator(es): Atendente**  
 **Descrição: Serve para registrar a venda de produtos para um cliente no sistema.**  
 **Pré-condições:**  
 **Pós-condições:**  
