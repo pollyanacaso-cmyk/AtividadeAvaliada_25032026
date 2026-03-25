@@ -51,7 +51,7 @@ Liste e descreva **cada RN** de forma clara.
 ---
 
 # 5. Casos de Uso 
-<img width="531" height="461" alt="image" src="https://github.com/user-attachments/assets/6324150f-b7c7-42c2-8a8b-9a197a76d07e" />
+<img width="937" height="813" alt="image" src="https://github.com/user-attachments/assets/4cb2613c-e74f-41f6-a61f-77c21f300035" />
 
 ---
 
