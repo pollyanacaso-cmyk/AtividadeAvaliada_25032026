@@ -18,16 +18,16 @@ Escolhi isso por que a venda é a parte mais crucial do sistema e impacta direta
 
 # 2. Regras de Negócio 
 
-**RN01 — O sistema não pode vender se não tiver o produto no estoque** 
-- O sistema nao deve permitir a venda de produtos que nao tenham quantidade disponivel no estoque.
-**RN02 — Cada venda tem que ser atualizada o estoque do produto que foi vendido**
-- Sempre que uma venda for finalizada, o sistema deve atualizar automaticamente a quantidade do produto no estoque
-**RN03 — As vendas a prazo ou "fiadas" precisam ser geradas no sistema uma conta a receber**
-- Quando a venda for feita a prazo, o sistema tem que gerar automaticamente uma conta a receber com as informações da venda
-**RN04 — Apenas farmaceuticos podem atorizar e assinar vender medicamentos com prescrição médica**
-- A venda de medicamentos que exigem receita médica só pode ser realizada com a autorização de um farmacêutico
- **RN05 — Clientes que não existam no sistema podem ser cadastrados no momento da venda**  
-- Caso o cliente não esteja cadastrado, o sistema tem que permitir a entrada desse novo cliente no momento da venda
+**RN01 — O sistema não pode vender se não tiver o produto no estoque**  
+- O sistema nao deve permitir a venda de produtos que nao tenham quantidade disponivel no estoque. 
+**RN02 — Cada venda tem que ser atualizada o estoque do produto que foi vendido**  
+- Sempre que uma venda for finalizada, o sistema deve atualizar automaticamente a quantidade do produto no estoque  
+**RN03 — As vendas a prazo ou "fiadas" precisam ser geradas no sistema uma conta a receber**  
+- Quando a venda for feita a prazo, o sistema tem que gerar automaticamente uma conta a receber com as informações   da venda  
+**RN04 — Apenas farmaceuticos podem atorizar e assinar vender medicamentos com prescrição médica**  
+- A venda de medicamentos que exigem receita médica só pode ser realizada com a autorização de um farmacêutico  
+ **RN05 — Clientes que não existam no sistema podem ser cadastrados no momento da venda**    
+- Caso o cliente não esteja cadastrado, o sistema tem que permitir a entrada desse novo cliente no momento da venda  
 ---
 
 # 3. Requisitos Funcionais 
