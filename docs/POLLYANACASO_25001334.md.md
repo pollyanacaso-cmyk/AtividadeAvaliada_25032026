@@ -243,6 +243,29 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
+## **UC09 - Atualizar o estoque **
+**Ator(es): Sistema**  
+**Descrição: Dá baixa nos produtos vendidos**  
+**Pré-condições: Venda estar concluida**  
+**Pós-condições: Estoque estar atualizado**  
+
+### Fluxo Principal
+1.  O sistema identifica os produtos vendidos
+2.  Atualiza a quantidade 
+3.  Salva as alterações
+
+### Fluxos Alternativos / Exceções
+- FA01 — Se der erro no estoque - o sistema registra falha 
+- FA02 —  
+
+### Relacionamentos
+- **Include: -**
+- **Extend: -**
+                       
+<img width="227" height="312" alt="image" src="https://github.com/user-attachments/assets/0c657a8a-8b18-4b73-b9ac-1ad2bf4b61ea" />
+
+---
+
 
 
 
