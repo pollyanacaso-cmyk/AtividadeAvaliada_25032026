@@ -23,7 +23,7 @@ Liste e descreva **cada RN** de forma clara.
 **RN02 — Cada venda tem que ser atualizada o estoque do produto que foi vendido**  
 **RN03 — As vendas a prazo ou "fiadas" tem que gerar automaticamente uma conta a receber**  
 **RN04 — Apenas farmaceuticos podem atorizar e assinar vender medicamentos com prescrição médica** 
-**RN05 — Clientes que não existam no sistema podem ser cadastrados no momento da venda**  
+ **RN05 — Clientes que não existam no sistema podem ser cadastrados no momento da venda**  
 
 ---
 
