@@ -88,33 +88,117 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-# 6. Documentação dos Casos de Uso
-
-## **UC02 - **
-**Ator(es): **  
-**Descrição: **  
-**Pré-condições: **  
-**Pós-condições: **  
+## **UC02 - Identificar o cliente**
+**Ator(es): Atendente**  
+**Descrição: Serve para ver um cliente no sistema**  
+**Pré-condições: Cliente cadastrado**  
+**Pós-condições: Cliente vinculado a venda**  
 
 ### Fluxo Principal
-1. 
-2.  
-3.  
-4.  
-5.   
-6.  
-7.  
-8.  
-9.  
-
+1. Cliente informa CPF ou numero
+2. Sistema busca o cliente
+3. Sistema retorna os dados
 
 ### Fluxos Alternativos / Exceções
-- FA01 —  
-- FA02 —  
+- FA01 —  Cliente não encontrado - pode cadastrar
 
 ### Relacionamentos
 - **Include:**
-- **Extend:**                      
+- **Extend: Cadastrar cliente**
+                      
+<img width="269" height="312" alt="image" src="https://github.com/user-attachments/assets/24e8b572-294b-420d-85f9-65470bca2e2b" />
 
 ---
+
+## **UC03 - Verificar estoque**
+**Ator(es): Atendente**  
+**Descrição: Serve para ver se tem produto disponivel**  
+**Pré-condições: Produto selecionado**  
+**Pós-condições: Quantidade informada**  
+
+### Fluxo Principal
+1.  Sistema recebe o produto 
+2.  Consulta o estoque
+3.  Mostra a quantidade disponivel
+
+### Fluxos Alternativos / Exceções
+- FA01 —  Se o produto nao tiver estoque - sistema informa indisponivel
+
+### Relacionamentos
+- **Include: -**
+- **Extend: -**                      
+
+<img width="297" height="312" alt="image" src="https://github.com/user-attachments/assets/7b0256a8-c876-4120-ac6b-8168e536e0d9" />
+
+---
+
+## **UC04 - Cadastrar Cliente**
+**Ator(es): Atendente**  
+**Descrição: Serve para cadastrar um novo cliente**  
+**Pré-condições: Cliente não estar cadastrado**  
+**Pós-condições: Cliente salvo no sistema**  
+
+### Fluxo Principal
+1.  Atendente abre o cadastro
+2.  Preenche os dados
+3.  Sistema valida as infos
+4.  Sistema salva o cliente  
+
+### Fluxos Alternativos / Exceções
+- FA01 —  Se os dados estiverem invalidos - sistema pede correção
+
+### Relacionamentos
+- **Include: -**
+- **Extend: -**                      
+
+<img width="250" height="312" alt="image" src="https://github.com/user-attachments/assets/9e2e01d7-f4d4-43ce-b02b-2905dc9fa481" />
+
+---
+
+## **UC05 - Autorizar venda controlada **
+**Ator(es): Farmaceutico**  
+**Descrição: Serve pra liberar a venda de medicamentos controlados**  
+**Pré-condições: Produto controlado selecionado**  
+**Pós-condições: Venda autorizada**  
+
+### Fluxo Principal
+1.  Sistema identifica o medicamento controlado
+2.  Solicita a autorização
+3.  O farmaceutico valida a receita
+4.  O sistema libera a venda
+
+### Fluxos Alternativos / Exceções
+- FA01 — Receita inválida - venda bloqueada 
+
+### Relacionamentos
+- **Include: -**
+- **Extend: -**                      
+
+<img width="312" height="257" alt="image" src="https://github.com/user-attachments/assets/c13e17b5-9ae0-4bc1-88e8-8dd1e0002cf4" />
+
+---
+
+## **UC06 Registrar Pagamento - **
+**Ator(es): Atendente**  
+**Descrição: Serve oara informar como o cliente vai pagar**  
+**Pré-condições: A venda estar em andamento**  
+**Pós-condições: Pagamento ser registrado**  
+
+### Fluxo Principal
+1. O atendente escolhe a forma de pagamento
+2. O sistema registra se é a vista ou a prazo  
+
+### Fluxos Alternativos / Exceções
+- FA01 —  Se for a prazo - gera a conta   
+
+### Relacionamentos
+- **Include: -**
+- **Extend: Gerar conta a receber**                      
+
+<img width="318" height="257" alt="image" src="https://github.com/user-attachments/assets/6811e4d4-4488-4b55-ab7c-850ffb69e3d4" />
+
+---
+
+
+
 
