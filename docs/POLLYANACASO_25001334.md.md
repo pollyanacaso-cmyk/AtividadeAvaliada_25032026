@@ -1,5 +1,5 @@
 # Avaliação — Engenharia de Software
-**Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante**
+**Sistema Integrado de Gestão de Farmácia — MVP de vendas dentro de uma farmácia**
 
 Aluno: *Pollyana Caso*  
 RA: *25001334*  
@@ -32,13 +32,13 @@ Escolhi isso por que a venda é a parte mais crucial do sistema e impacta direta
 
 # 3. Requisitos Funcionais 
 
-**RF01 — O sistema deve permitir consultar produtos por nome, código ou fabricante**  
-**RF02 — O sistema deve permitir cadastrar um novo cliente**  
-**RF03 — O sistema deve registrar a venda**  
-**RF04 — O sistema deve verificar o estoque antes de finalizar a venda**  
-**RF05 — O sistema deve atualizar o estoque depois de cada venda finalizada**  
-**RF06 — O sistema deve emitir nota fiscal e salvar a nota**  
-**RF07 — O sistema deve permitir que apenas farmaceuticos autorizem venda de medicamentos de prescrição médica**  
+**RF01 — O sistema permite consultar produtos por nome, código ou fabricante**  
+**RF02 — O sistema permite cadastrar um novo cliente**  
+**RF03 — O sistema registra a venda**  
+**RF04 — O sistema verifica o estoque antes de finalizar a venda**  
+**RF05 — O sistema atualiza o estoque depois de cada venda finalizada**  
+**RF06 — O sistema emite nota fiscal e salvar a nota**  
+**RF07 — O sistema permite que apenas farmaceuticos autorizem venda de medicamentos de prescrição médica**  
 **RF08 — O sistema deve permitir vendas a prazo e automaticamente após essa venda gerar contas a receber**  
 
 ---
