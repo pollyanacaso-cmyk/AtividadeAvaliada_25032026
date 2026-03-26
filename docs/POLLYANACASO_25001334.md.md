@@ -10,7 +10,7 @@ Data: *25/03/2026*
 # 1. Definição do MVP
 Meu MVP é sobre vendas dentro de uma farmácia, desde a identificação ou cadastro de um cliente até o final da compra e a emissão da nota fiscal. 
 
-Dentro dele existe funcionalidades mais complicadas como relatorios com dados de fornecedores para controle financeiro no final do mês, mas ainda sim que de pra acompanhar o dia a dia do sistema da farmácia. Ficaram de fora as funcionalidades como a gestão financeira completa e detalhada, contas a pagar e os indicadores de desempenho justamente para manter o foco o funcionamento basico do sistema.
+Dentro dele existe funcionalidades mais complicadas como armazenamento de dados para controle ou auditorias, mas é voltado mais pra acompanhar o dia a dia do sistema da farmácia. Ficaram de fora as funcionalidades como a gestão financeira completa e detalhada e os indicadores de desempenho justamente para manter o foco o funcionamento basico do sistema.
 
 Escolhi isso por que a venda é a parte mais crucial do sistema e impacta diretamente no funcionamento da farmácia.
 
@@ -18,16 +18,21 @@ Escolhi isso por que a venda é a parte mais crucial do sistema e impacta direta
 
 # 2. Regras de Negócio 
 
-**RN01 — O sistema não pode vender se não tiver o produto no estoque**  
-- O sistema nao deve permitir a venda de produtos que nao tenham quantidade disponivel no estoque. 
-**RN02 — Cada venda tem que ser atualizada o estoque do produto que foi vendido**  
-- Sempre que uma venda for finalizada, o sistema deve atualizar automaticamente a quantidade do produto no estoque  
+ **RN01 — O sistema não pode vender se não tiver o produto no estoque** 
+ - O sistema nao deve permitir a venda de produtos que nao tenham quantidade disponivel no estoque.
+      
+**RN02 — Cada venda tem que ser atualizada o estoque do produto que foi vendido**   
+  - Sempre que uma venda for finalizada, o sistema deve atualizar automaticamente a quantidade do produto no estoque
+
 **RN03 — As vendas a prazo ou "fiadas" precisam ser geradas no sistema uma conta a receber**  
-- Quando a venda for feita a prazo, o sistema tem que gerar automaticamente uma conta a receber com as informações   da venda  
-**RN04 — Apenas farmaceuticos podem atorizar e assinar vender medicamentos com prescrição médica**  
-- A venda de medicamentos que exigem receita médica só pode ser realizada com a autorização de um farmacêutico  
- **RN05 — Clientes que não existam no sistema podem ser cadastrados no momento da venda**    
-- Caso o cliente não esteja cadastrado, o sistema tem que permitir a entrada desse novo cliente no momento da venda  
+  - Quando a venda for feita a prazo, o sistema tem que gerar automaticamente uma conta a receber com as informações    da venda
+    
+**RN04 — Apenas farmaceuticos podem atorizar e assinar vender medicamentos com prescrição médica**   
+  - A venda de medicamentos que exigem receita médica só pode ser realizada com a autorização de um farmacêutico
+     
+ **RN05 — Clientes que não existam no sistema podem ser cadastrados no momento da venda**     
+  - Caso o cliente não esteja cadastrado, o sistema tem que permitir a entrada desse novo cliente no momento da venda 
+    
 ---
 
 # 3. Requisitos Funcionais 
@@ -39,7 +44,7 @@ Escolhi isso por que a venda é a parte mais crucial do sistema e impacta direta
 **RF05 — O sistema atualiza o estoque depois de cada venda finalizada**  
 **RF06 — O sistema emite nota fiscal e salvar a nota**  
 **RF07 — O sistema permite que apenas farmaceuticos autorizem venda de medicamentos de prescrição médica**  
-**RF08 — O sistema deve permitir vendas a prazo e automaticamente após essa venda gerar contas a receber**  
+**RF08 — O sistema permite vendas a prazo e automaticamente após essa venda gerar contas a receber**  
 
 ---
 
@@ -177,7 +182,7 @@ Escolhi isso por que a venda é a parte mais crucial do sistema e impacta direta
 - **Include: -**
 - **Extend: -**                      
 
-<img width="312" height="257" alt="image" src="https://github.com/user-attachments/assets/c13e17b5-9ae0-4bc1-88e8-8dd1e0002cf4" />
+<img width="251" height="312" alt="image" src="https://github.com/user-attachments/assets/691f2f78-1be8-49a8-9194-8a63adfdbec3" />
 
 ---
 
