@@ -155,7 +155,7 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-## **UC05 - Autorizar venda controlada **
+## **UC05 - Autorizar venda controlada**
 **Ator(es): Farmaceutico**  
 **Descrição: Serve pra liberar a venda de medicamentos controlados**  
 **Pré-condições: Produto controlado selecionado**  
@@ -178,7 +178,7 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-## **UC06 Registrar Pagamento - **
+## **UC06 - Registrar Pagamento **
 **Ator(es): Atendente**  
 **Descrição: Serve oara informar como o cliente vai pagar**  
 **Pré-condições: A venda estar em andamento**  
@@ -198,6 +198,51 @@ Liste e descreva **cada RN** de forma clara.
 <img width="318" height="257" alt="image" src="https://github.com/user-attachments/assets/6811e4d4-4488-4b55-ab7c-850ffb69e3d4" />
 
 ---
+
+## **UC07 - Gerar conta a receber**
+**Ator(es): Sistema**  
+**Descrição: serve para registrar as vendas a prazo**  
+**Pré-condições: Venda a prazo realizada**  
+**Pós-condições: Conta registrada**  
+
+### Fluxo Principal
+1.  O sistema identifica que tem uma venda a prazo
+2.  Cria uma conta a receber
+3.  Define quando ela vai vencer
+
+### Fluxos Alternativos / Exceções
+- FA01 —  Se tem erro no registro - sistema tem que tentar novamente
+
+### Relacionamentos
+- **Include: -**
+- **Extend: -**                      
+
+<img width="248" height="312" alt="image" src="https://github.com/user-attachments/assets/c2e00335-c61b-4439-a88d-3476013b3adc" />
+
+---
+
+## **UC08 - Emitir o comprovante **
+**Ator(es): Sistema**  
+**Descrição: Gera o comprovante da venda**  
+**Pré-condições: Venda finalizada**  
+**Pós-condições: Comprovante emitido**  
+
+### Fluxo Principal
+1.  Sistema pega os dados da venda 
+2.  Gera o comprovante
+3.  exibe na tela ou imprime
+
+### Fluxos Alternativos / Exceções
+- FA01 —  erro na emissão - sistema tem que tentar novamente 
+
+### Relacionamentos
+- **Include: -**
+- **Extend: -**                      
+
+<img width="330" height="327" alt="image" src="https://github.com/user-attachments/assets/982ebe21-a8ad-4fc1-a6b9-d0ed15fa5bb9" />
+
+---
+
 
 
 
