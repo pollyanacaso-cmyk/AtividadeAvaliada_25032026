@@ -178,7 +178,7 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-## **UC06 - Registrar Pagamento **
+## **UC06 - Registrar Pagamento**
 **Ator(es): Atendente**  
 **Descrição: Serve oara informar como o cliente vai pagar**  
 **Pré-condições: A venda estar em andamento**  
@@ -221,7 +221,7 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-## **UC08 - Emitir o comprovante **
+## **UC08 - Emitir o comprovante**
 **Ator(es): Sistema**  
 **Descrição: Gera o comprovante da venda**  
 **Pré-condições: Venda finalizada**  
@@ -243,7 +243,7 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
-## **UC09 - Atualizar o estoque **
+## **UC09 - Atualizar o estoque**
 **Ator(es): Sistema**  
 **Descrição: Dá baixa nos produtos vendidos**  
 **Pré-condições: Venda estar concluida**  
@@ -266,7 +266,30 @@ Liste e descreva **cada RN** de forma clara.
 
 ---
 
+## **UC10 - Cancelar a venda**
+**Ator(es): Atendente**  
+**Descrição: Cancela uma venda que foi registrada incorretamente**  
+**Pré-condições: Venda já registrada no sistema**  
+**Pós-condições: Venda cancelada e estoque arrumado**  
 
+### Fluxo Principal
+1.  O atendente solicita o cancelamento no sistema
+2.  Informa qual venda foi
+3.  Sistema localiza a venda
+4.  Sistema valida se pode cancelar
+5.  Atendente confirma o cancelamento
+6.  Sistema cancela a venda
+7.  Sistema devolve o produto no estoque
 
+### Fluxos Alternativos / Exceções
+- FA01 — A venda nao ser encontrada - sistema informa o erro  
+- FA02 —  Venda já ter sido feita a muito tempo - sistema bloqueia pra cancelar 
 
+### Relacionamentos
+- **Include: Atualizar o estoque**
+- **Extend: -**
+                  
+<img width="464" height="486" alt="image" src="https://github.com/user-attachments/assets/cd39c2de-88cf-4e9c-b465-bf1db7dadc58" />
+
+---
 
