@@ -10,9 +10,9 @@ Data: *25/03/2026*
 # 1. Definição do MVP
 Meu MVP é sobre vendas dentro de uma farmácia, desde a identificação ou cadastro de um cliente até o final da compra e a emissão da nota fiscal. 
 
-Dentro dele existe funcionalidades mais computacionais como relatorios com dados de fornecedores para controle financeiro no final do mês, mas ainda sim que de pra acompanhar o dia a dia do sistema da farmácia. Ficaram de fora as funcionalidades como a gestão financeira completa e detalhada, contas a pagar e os indicadores de desempenho justamente para manter o foco o funcionamento basico do sistema.
+Dentro dele existe funcionalidades mais complicadas como relatorios com dados de fornecedores para controle financeiro no final do mês, mas ainda sim que de pra acompanhar o dia a dia do sistema da farmácia. Ficaram de fora as funcionalidades como a gestão financeira completa e detalhada, contas a pagar e os indicadores de desempenho justamente para manter o foco o funcionamento basico do sistema.
 
-Escolhi isso por que a venda é a parte mais crítica do sistema e que impacta diretamente no funcionamento da farmácia.
+Escolhi isso por que a venda é a parte mais crucial do sistema e impacta diretamente no funcionamento da farmácia.
 
 ---
 
